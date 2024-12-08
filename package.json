@@ -1,11 +1,19 @@
 {
+<<<<<<< HEAD
   "name": "training-repository-js",
+=======
+  "name": "trening-repository-js",
+>>>>>>> a265eb3652d754c7680a4954002bba1415624697
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+<<<<<<< HEAD
     "build": "vite build --base=/training-repository-js/",
+=======
+    "build": "vite build --base=/trening-repository-js/",
+>>>>>>> a265eb3652d754c7680a4954002bba1415624697
     "preview": "vite preview"
   },
   "devDependencies": {
