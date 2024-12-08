@@ -1,23 +1,25 @@
 {
-  "name": "trening-repository-js",
+  "name": "training-repository-js",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/trening-repository-js/",
+    "build": "vite build --base=/training-repository-js/",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.20",
     "glob": "^11.0.0",
-    "postcss": "^8.4.49",
+    "postcss": "^8.4.41",
     "postcss-sort-media-queries": "^5.2.0",
     "vite": "^5.4.6"
   },
   "author": "Oleh Dmytriiev <dmitriev.olegg@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.7.7",
+    "izitoast": "^1.4.0",
+    "simplelightbox": "^2.14.3",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
