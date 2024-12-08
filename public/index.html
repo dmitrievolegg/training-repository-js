@@ -3,24 +3,23 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vanilla App Template</title>
-  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Project Template</title>
+  <meta name="description" content="Your project description">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="stylesheet" href="/src/styles/main.scss" />
 </head>
 
 <body>
-  <load src="./partials/header.html" icon-path="public/img/sprite.svg#logo" />
+  <include src="/src/templates/partials/header.html"></include>
 
   <main>
-    <!-- Loads the specified .html file -->
-    <load src="./partials/vite-promo.html" />
-    <load src="./partials/badges.html" />
+    <include src="/src/templates/pages/home.html"></include>
   </main>
 
-  <load src="./partials/footer.html" />
+  <include src="/src/templates/partials/footer.html"></include>
 
-  <script type="module" src="public/main.js"></script>
+  <script type="module" src="/src/js/main.js"></script>
 </body>
 
 </html>

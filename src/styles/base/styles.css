@@ -1,0 +1,14 @@
+/* Основной файл стилей: styles.css */
+
+/* Импорт базовых стилей */
+@import './base/reset.css';
+@import './base/variables.css';
+@import './base/global.css';
+
+/* Импорт стилей компонентов */
+@import './components/header.css';
+@import './components/footer.css';
+
+/* Импорт утилит и миксинов */
+@import './utils/animations.css';
+@import './utils/helpers.css';
